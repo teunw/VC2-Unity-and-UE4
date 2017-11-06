@@ -10,4 +10,5 @@ This comparison will mostly focus on the following things.
 
 As a start, the graphical features of both engines will be compared.
 
-This is done in [part 2](./graphics.md)
+### Chapters
+* [Graphics](./graphics.md)
