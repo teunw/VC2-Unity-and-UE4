@@ -30,3 +30,22 @@ Personally I find Unreal's system better, because it is more easy to seperate th
 The material code | Result
 ----------------- | ---------------------
 ![Unreal engine material](./images/UE4_Material_Basic.png) | ![Material result](./images/UE4_pulse_material.gif)
+
+In Unity you could have the same material by changing the color parameters in C# like this.
+Of course you would have to create the material first.
+```cs
+using UnityEngine;
+using System.Collections;
+
+public class ExampleClass : MonoBehaviour {
+    void Start() {
+        Renderer rend = GetComponent<Renderer>();
+        rend.material.shader = Shader.Find("Specular");
+        rend.material.SetColor("_SpecColor", Color.red);
+    }
+}
+```
+Of course there is much more possible with materials, for that I suggest that you go experiment with materials in both engines yourself.
+You can easily change parameters to see the results instantly.
+
+The next chapter is about [programming](./programming.md).

@@ -12,3 +12,4 @@ As a start, the graphical features of both engines will be compared.
 
 ### Chapters
 * [Graphics](./graphics.md)
+* [Programming](./programming.md)
