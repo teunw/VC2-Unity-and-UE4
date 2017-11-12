@@ -29,4 +29,4 @@ Personally I find Unreal's system better, because it is more easy to seperate th
 
 The material code | Result
 ----------------- | ---------------------
-![Unreal engine material](./images/UE4_Material_Basic.png) | ![Material result](./images/UE4_pulse_material.mp4)
+![Unreal engine material](./images/UE4_Material_Basic.png) | ![Material result](./images/UE4_pulse_material.gif)
