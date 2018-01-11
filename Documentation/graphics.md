@@ -4,6 +4,7 @@ In any game engine to graphics are arguably the most important feature, this is 
 People can't play your game when they aren't shown something, simple enough.
 
 Both engines feature very advanced graphical capabilities, this is seen the examples below.
+Basic examples also show the differences more clearly.
 
 Unreal Engine | Unity Engine
 ------------- | --------------
@@ -22,10 +23,11 @@ Unreal Engine | Unity Engine
 ![Unreal Engine scene](./images/UE4_Metallic.png) | ![Unity Engine scene](./images/Unity_Metallic.png)
 
 Materials have the about the same parameters in both engines. 
-The most significant difference is in the programming of materials.
+These parameters are adjustable in both editor and also in programming.
 Unreal Engine supports a node based system for defining how a material should be structured, similar to how it works in 3DS Max.
 Unity's materials can have parameters that can then be modified by C# (or Javascript) code.
 Personally I find Unreal's system better, because it is more easy to seperate the materials.
+In Unreal Engine 4 you can also add code to materials, as shown below.
 
 The material code | Result
 ----------------- | ---------------------
