@@ -44,7 +44,7 @@ void ABallCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputCompo
 {
 	Super::SetupPlayerInputComponent(PlayerInputComponent);
 
-	PlayerInputComponent->BindAxis(FName("AxisForward"), this, &ABallCharacter::OnMoveForward);
-	PlayerInputComponent->BindAxis(FName("AxisRight"), this, &ABallCharacter::OnMoveForward);
+	PlayerInputComponent->BindAxis(FName("MoveForward"), this, &ABallCharacter::OnMoveForward);
+	PlayerInputComponent->BindAxis(FName("MoveRight"), this, &ABallCharacter::OnMoveForward);
 }
 
